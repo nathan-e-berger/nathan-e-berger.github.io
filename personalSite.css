@@ -1,0 +1,88 @@
+body {
+  background-color:rgb(71, 118, 118);
+}
+
+h1, h2 {
+  font-family: Arial;
+  text-align: center;
+  color: rgb(197, 223, 220);
+  text-shadow: 4px 4px 5px rgb(46, 96, 149);
+}
+
+h1 {
+  font-size: 90px;
+}
+h2 {
+  font-size: 45px;
+}
+h4 {
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  color:rgb(197, 223, 220)
+}
+
+div h4 {
+  text-shadow: 4px 4px 5px rgb(46, 96, 149);
+}
+
+nav {
+  margin: 0 0 0 0;
+  font-family: Arial;
+  font-size: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  padding: 10px;
+  display: inline;
+  border-style: dotted;
+  border-width: 4px;
+}
+
+body div p {
+  box-sizing: content-box;
+  width: auto;
+  text-align: left;
+  font-size: 30px;
+  color: rgb(197, 223, 220);
+  margin: auto;
+  padding: 100px;
+  border: 10px;
+  border-style: dotted;
+  border-color: black;
+
+}
+
+#homepagepic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 450px;
+  height: 600px;
+  border-radius: 5%;
+}
+
+#pets {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 700px;
+  border-radius: 5%;
+
+}
+
+#blackbg {
+  background-color: rgb(63, 76, 74);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
