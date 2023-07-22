@@ -49,10 +49,10 @@ body div p {
   box-sizing: content-box;
   width: auto;
   text-align: left;
-  font-size: 30px;
+  font-size: 20px;
   color: rgb(197, 223, 220);
   margin: auto;
-  padding: 100px;
+  padding: 50px;
   border: 10px;
   border-style: dotted;
   border-color: black;
@@ -81,7 +81,7 @@ body div p {
 
 #blackbg {
   background-color: rgb(63, 76, 74);
-  width: 50%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
 }
