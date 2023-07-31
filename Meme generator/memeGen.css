@@ -1,0 +1,71 @@
+h1, form {
+  text-align: center;
+}
+h1 {
+  color: rgb(99, 214, 176);
+}
+form{
+  width: 350px;
+  height: 300px;
+  margin: 0 auto;
+  color: rgb(99, 214, 176);
+}
+
+#imageURL, #uppertext, #lowertext {
+  width: 350px;
+  height: 50px;
+  background-color: rgb(31, 30, 30);
+  border-radius: 10px;
+}
+input {
+  color:rgb(99, 214, 176);
+}
+#submit, #delete {
+  color: black;
+  width: 100px;
+  border-radius: 10px;
+}
+body {
+  background-color: rgb(12, 16, 15);
+}
+memeDiv {
+  display: flex;
+  height: 600px;
+  width: 600px;
+  position: relative;
+  left: 15px;
+}
+memes {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+hiDiv, loDiv {
+  margin: 0 auto;
+  position: absolute;
+  height: 150px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  -webkit-text-stroke: 2px black;
+  left: 15%;
+  right: 15%;
+  text-align: center;
+  text-transform: uppercase;
+}
+hiDiv {
+  top: 30px;
+}
+loDiv {
+  bottom: 1px;
+}
+img {
+  padding: 10px;
+  object-fit: cover;
+  height: 590px;
+  width: 590px;
+}
+
